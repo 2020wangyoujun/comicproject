@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.comicsproject.kkline.view.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chapterFragment"
+        android:name="com.example.comicsproject.kkline.view.ComicDetailFragment"
+        android:label="ChapterFragment" >
+        <action
+            android:id="@+id/action_chapterFragment_to_directoryFragment"
+            app:destination="@id/directoryFragment" />
+        <action
+            android:id="@+id/action_chapterFragment_to_comicViewerFragment"
+            app:destination="@id/comicViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/directoryFragment"
+        android:name="com.example.comicsproject.kkline.view.ChapterListFragment"
+        android:label="DirectoryFragment" >
+        <action
+            android:id="@+id/action_directoryFragment_to_comicViewerFragment"
+            app:destination="@id/comicViewerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comicViewerFragment"
+        android:name="com.example.comicsproject.kkline.view.ComicViewerFragment"
+        android:label="ComicViewerFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.comicsproject.kkline.view.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment" />
+    </fragment>
+</navigation>

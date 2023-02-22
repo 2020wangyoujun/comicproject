@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="huge_font">60sp</dimen>
+    <dimen name="big_font">18sp</dimen>
+    <dimen name="mid_font">12sp</dimen>
+
+    <dimen name="chapter_title">22sp</dimen>
+    <dimen name="chapter_info">18sp</dimen>
+    <dimen name="chapter_directory">26sp</dimen>
+    <dimen name="chapter_comic_state">23sp</dimen>
+    <dimen name="chapter_directory_cell">18sp</dimen>
+
+    <dimen name="home_comic_name">18sp</dimen>
+    <dimen name="home_comic_intro">13sp</dimen>
+    <dimen name="home_recommend_title">20sp</dimen>
+
+
+</resources>

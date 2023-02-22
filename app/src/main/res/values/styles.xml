@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="toolbarTitleCollapsed" >
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="toolbarTitleExpanded" >
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
